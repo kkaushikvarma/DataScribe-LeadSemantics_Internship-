@@ -1,5 +1,4 @@
 # Game Bot
-### By Arda Mavi
 
 Artificial intelligence learn playing any game with watching you.
 
