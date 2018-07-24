@@ -1,15 +1,10 @@
-# Game Bot
+# DataScribe
 
-Artificial intelligence learn playing any game with watching you.
+Natural Language Generation from 2D Data
+- Get insights on the trends and anomalies in data as a part of a narration.
 
-## What is this?
-- First: Run program and play any game little bit.
-- Second: Run program and watch artificial intelligence's playing game.
-
-## How it works?
-When you run the training program, program start to listen your keyboard and mouse moving and save these.<br>
-Artificial intelligence learn: When I push any button?<br/>
-And you run the artificial intelligence, It play your game like you.
+## Instructions:
+- 
 
 ## But how it learn?
 ##### Magic (just joking)
