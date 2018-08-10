@@ -25,23 +25,20 @@ Create a processed data object from the Process_CSV module
 
           ```data.labels_row = False/True```
 
-If there is a column with only the labels to each data object, specify it using *.variable_col*
-Example:
-   If the first column contains labels,
-```data.variable_col = 0```
+- If there is a column with only the labels to each data object, specify it using *.variable_col*
+  - Example: If the first column contains labels, Set ```data.variable_col = 0```
 
 
-Set X and Y axes using the *.set_axis* with parameters:
-            1: *"x"/"y"* (to define the axis being set)
-            2: *columnID* (The column index which the axis refers to)
-            3: *DataType* (Integer/Float/Datetime)
-            4: Additional formatting if the data is of type Datetime
-    Example:
-        ```data.set_axis("x",1,'datetime','%b %d %Y')```
-        If X axis is column:1 of type *datetime*
+- Set X and Y axes using the *.set_axis* with parameters:
 
-        ```data.set_axis("y",2,'float', None)```
-        If Y axis is column:2 of type *float*
+  1. ```"x"``` or ```"y"``` (to define the axis being set)
+  2. *columnID* (The column index which the axis refers to)
+  3. *DataType* (Integer/Float/Datetime)
+  4. Additional formatting if the data is of type Datetime.
+  - Example:
+    - If X axis is column:1 of type *datetime*:      ```data.set_axis("x",1,'datetime','%b %d %Y')```
+    - If Y axis is column:2 of type *float*:         ```data.set_axis("y",2,'float', None)```
+        
 
 #### Analysing Data:
 
@@ -49,10 +46,9 @@ After setting the necessary attributes, execute the following for analysing the 
 ```Narration_Data = data.transform()```
 
 #### Accessing the Narrations:
-The output of *.transform()* is a list with each element referring to each label if there are more than one labels
-To access the narrations in a graphical interface, execute:
-```GUI(Narration_Data[0])``` For viewing the narration of the first label; 
-Change the index for viewing subsequent narrations of other labels
+- The output of *.transform()* is a list with each element referring to each label if there are more than one labels
+- To access the narrations in a graphical interface, execute:       ```GUI(Narration_Data[0])``` for viewing the narration of the first label; 
+  - Change the index for viewing subsequent narrations of other labels
 
 
 
