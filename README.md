@@ -4,22 +4,23 @@ Natural Language Generation from 2D Data
 - Get insights on the trends and anomalies in data as a part of a narration.
 
 
-### Requirements
+## Dependencies
+- Python 3.1 or above
 - matplotlib
 - numpy
 
-### INSTRUCTIONS:
+## Instructions:
 Refer to 'sample_narration.py' for full implementation of module.
 
-#### Accessing the library:
+### Accessing the library:
 Import the library from a python script running on the same directory
 ```from datascribe import *```
 
-#### Importing data from .CSV
+### Importing data from .CSV
 Create a processed data object from the Process_CSV module
 ```data = Process_CSV('filename.csv')```
 
-#### Setting Attributes:
+### Setting Attributes:
 
 - Set the labels_row attribute to *True* if the first row in the CSV contains the column labels and *False* otherwise.
 
@@ -40,7 +41,7 @@ Create a processed data object from the Process_CSV module
     - If Y axis is column:2 of type *float*:         ```data.set_axis("y",2,'float', None)```
         
 
-#### Analysing Data:
+### Analysing Data:
 
 After setting the necessary attributes, execute the following for analysing the data:
 ```Narration_Data = data.transform()```
