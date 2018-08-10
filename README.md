@@ -7,3 +7,7 @@ Natural Language Generation from 2D Data
 ### Requirements
 - matplotlib
 - numpy
+
+### INSTRUCTIONS:
+
+<from datascribe import *>
