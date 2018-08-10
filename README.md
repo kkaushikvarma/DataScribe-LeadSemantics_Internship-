@@ -21,8 +21,9 @@ Create a processed data object from the Process_CSV module
 
 #### Setting Attributes:
 
-Set the labels_row attribute to *True* if the first row in the CSV contains the column labels and *False* otherwise.
-```data.labels_row = False/True```
+- Set the labels_row attribute to *True* if the first row in the CSV contains the column labels and *False* otherwise.
+
+          ```data.labels_row = False/True```
 
 If there is a column with only the labels to each data object, specify it using *.variable_col*
 Example:
